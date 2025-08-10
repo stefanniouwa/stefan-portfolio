@@ -1,0 +1,306 @@
+baseURL: "https://stefanniouwa.netlify.app/"
+languageCode: "en-us"
+title: "Stefan Nio Portfolio"
+theme: hugo-profile
+
+params:
+  title: "Stef's Portfolio"
+  description: "Aspiring AI Engineer passionate about solving real-world problems with technology."
+  favicon: "/images/logo.png"
+  animate: true
+  theme:
+    defaultTheme: "auto"
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  navbar:
+    align: ms-auto
+    # showBrandLogo: true
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  
+  # Hero Section
+  hero:
+    enable: true
+    intro: "Hey, my name is"
+    title: "Stefan."
+    subtitle: "AI Engineer"
+    content: "Delivering AI-Driven Solutions to Real-World Problems."
+    image: /images/portrait.png
+    bottomImage:
+      enable: true
+    button:
+      enable: true
+      name: "Resume"
+      url: "#"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: "https://github.com/stefanniouwa"
+        - icon: fab fa-linkedin
+          url: "https://linkedin.com/in/stefan-nio"
+
+  # About
+  about: 
+    enable: true
+    title: "About Me"
+    image: "/images/about.png"
+    content: |-
+      Stefan is an aspiring software engineer with a passion for AI and Machine Learning. Stefan graduated with a Bachelor's in Advanced Computer Science, with strong foundational understanding of low-level computer science concepts. 
+      
+      During his Honours year, Stefan gained experience in academic research and developed a multi-class classification model that classifies seizure types with Tensorflow and Keras to tackle problems related to Healthcare. 
+      
+      He is currently working as an AI Engineer Intern at [CognixAI](https://cognix.au/) in Sydney, NSW, where he builds AI-powered automation tools, integrates third-party models, and optimizes end-to-end Python workflows.
+
+      Beyond his technical skills, Stefan serves as the Treasurer and Executive Committee member of his university’s Indonesian student society, leading a 40-member team, growing membership, and managing event budgets with care. 
+      
+      Stefan also works as a barista at a local café—crafting lattes with the same precision he applies to machine learning models.
+    skills:
+      enable: true
+      title: "Technologies I've been working with recently:"
+      items:
+        - "Python"
+        - "Java and C"
+        - "Tensorflow, Keras, and Scikit-learn"
+        - "NextJS, ReactJS, HTML, CSS, and JS"
+        - "LaTeX and Markdown"
+        - "SQL, Jupyter Notebook, and Git command line tools"
+        - "Pandas, Matplotlib, and Seaborn"
+        - "Docker and RestAPI"
+  
+  # Experience Section
+  experience:
+    enable: true
+    items:
+      - job: "Artificial Intelligence Engineer Intern"
+        company: "CognixAI"
+        companyUrl: "https://cognix.au/"
+        date: "Jan 2024 - May 2025"
+        featuredLink:
+          enable: true
+          name: "View the Website"
+          url: "https://cognix.au/"
+        content: "At CognixAI, Stefan works as an Artificial Intelligence Engineer Intern in Sydney, NSW, where he builds AI-powered content creation tools that streamline the process of generating and posting personalized content across multiple social media platforms. Leveraging Hugging Face models, third-party AI APIs for text, video, and audio generation, and real-time data from sources like LinkedIn, X, and Bing News, he enhances user engagement and efficiency. He has researched and prototyped adaptive AI models capable of learning client-specific writing styles, enabling fine-tuned, highly personalized content generation. Through Python workflow optimization and API integrations, Stefan has reduced processing times by 25% and improved user efficiency by 40%."
+      - job: "Software Accounting Intern"
+        company: "Bayswater Mazda"
+        companyUrl: "https://www.bayswatermazda.com.au/"
+        date: "Nov 2020 - Feb 2021"
+        featuredLink:
+          enable: true
+          name: "View the Website"
+          url: "https://www.bayswatermazda.com.au/"
+        content: "At Bayswater Mazda, Stefan worked as a Software Accounting Intern, digitizing over 15,000 tax invoices and developing a custom software solution that streamlined the transfer of 5,000+ documents, cutting processing time by 60% and saving 10 workdays each month. He built automated Excel models with PivotTables, VLOOKUP, and VBA to improve data accuracy by 25%, while collaborating with a cross-functional team to deliver a cost-efficient document management system that reduced processing times by 40%."
+      - job: "Treasurer (Executive Team)"
+        company: "INDOSS at The University of Western Australia"
+        companyUrl: "https://www.instagram.com/indossppiauwa/?hl=en"
+        date: "Feb 2024 - Dec 2024"
+        featuredLink:
+          enable: true
+          name: "View the Instagram"
+          url: "https://www.instagram.com/indossppiauwa/?hl=en"
+        content: "As Treasurer and Executive Committee member of the Indonesian Students Society (INDOSS) at UWA, Stefan led a 40-member team, managed event budgets, and oversaw transparent financial operations for a 350+ member organization. He secured over $4,000 in sponsorships, tripled cash reserves, and orchestrated large-scale events with 450+ attendees, generating record revenue. This role strengthened his leadership, financial management, and collaborative decision-making skills in a fast-paced, community-driven environment."
+      - job: "Youth Leader"
+        company: "WPC FAITH"
+        companyUrl: "https://wpcbc.net/"
+        date: "Feb 2020 – Present"
+        featuredLink:
+          enable: true
+          name: "View the Website"
+          url: "https://wpcbc.net/"
+        content: >
+          As a Youth Leader at WPC Faith Church, Stefan has mentored and guided high school and university students, helping them grow in faith, leadership, and community engagement. 
+          He has organized weekly gatherings, coordinated youth camps, and led worship sessions, fostering a welcoming and supportive environment for young members. 
+          This role has strengthened his skills in public speaking, event coordination, and working collaboratively with a dedicated leadership team.
+
+  # Education
+  education:
+    enable: true
+    index: false
+    items:
+      - title: "Bachelor of Advanced Computer Science (Honours), Major in Artificial Intelligence"
+        school:
+          name: "The University of Western Australia"
+          url: "https://www.uwa.edu.au/"
+        date: "2021 – 2024"
+        GPA: "5.75 out of 7.0"
+        content: |-
+          Achievements
+            - Graduated in the top 8% nationally.
+            - Completed Honours research on multi-class seizure classification using deep learning (WaveNet + BiLSTM) with EEG data.
+          
+          Relevant Courses
+            - Data Structures & Algorithms, Software Engineering with Java, Systems Design and Programming, Agile Web Development.
+            - Machine Learning, Deep Learning, Computational Modelling, Computer Vision, Algorithms in Agents and AI.
+
+      - title: "High School ATAR Pathway"
+        school:
+          name: "Kennedy Baptist College"
+          url: "https://www.kennedy.wa.edu.au/"
+        date: "2017 – 2020"
+        GPA: "ATAR: 95.8"
+        content: |-
+          Achievements
+          - Graduated with an ATAR of 95.8.
+          - Placed in extension (top-level) classes across Mathematics, Science, English, and Humanities, achieving the top score in Mathematics Methods.
+          - Represented the school in the basketball team, contributing to interschool competitions.
+          - Actively involved in leadership programs and community service initiatives.
+
+  achievements:
+    enable: true
+    items:
+      - title: "ACS Recognised Graduate"
+        content: Recognised by the Australian Computer Society for meeting professional standards in ICT.
+        url: "https://www.acs.org.au/cpd-education/accredited-courses.html"
+        image: /images/acs.png
+
+      - title: "Second Class Honours"
+        content: Graduated with a Bachelor of Advanced Computer Science (Honours) with Second Class Honours, achieving GPA 5.75 and placing in the top 8% nationally.
+        image: /images/honors.png
+      - title: "INDOSS Professional Networking Event"
+        content: Organised and hosted INDOSS’s first-ever professional networking event, connecting Indonesian students with industry professionals.
+        image: /images/achievement.jpg
+
+  projects:
+    enable: true
+    items:
+      - title: Honours Research Thesis — Seizure Classification (EEG)
+        content: Built a WaveNet–BiLSTM pipeline in TensorFlow/Keras to classify seizure types from raw EEG; explored channel-wise attention and rigorous patient-independent evaluation.
+        image: /images/projects/project1.png # edit this
+        featured:
+          name: Read Dissertation (PDF)
+          link: /files/thesis-dissertation.pdf # edit this
+        badges:
+          - "TensorFlow"
+          - "Keras"
+          - "Python"
+          - "EEG"
+          - "Deep Learning"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/your-username/honours-seizure-classification # edit this
+          - icon: fas fa-file-pdf
+            url: /files/thesis-dissertation.pdf # edit this
+
+      - title: Decision Trees & Random Forest — Hyperparameter Tuning
+        content: Implemented classification with GridSearchCV and cross-validation to tune Decision Trees and Random Forests; improved accuracy and reliability with robust evaluation.
+        image: /images/projects/project2.png # edit this
+        featured:
+          name: GitHub Repo
+          link: https://github.com/your-username/cits5508-assignment2 # edit this
+        badges:
+          - "Python"
+          - "scikit-learn"
+          - "GridSearchCV"
+          - "Cross-Validation"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/your-username/cits5508-assignment2 # edit this
+
+      - title: WeatherForecast — GRU Models & VAE for WA Temps
+        content: Built GRU-based models (direct, sequential, encoder–decoder) to forecast min/max temperatures; added a VAE to synthesize realistic temperature sequences.
+        image: /images/projects/project3.png # edit this
+        featured:
+          name: GitHub Repo
+          link: https://github.com/your-username/weather-forecast-gru-vae # edit this
+        badges:
+          - "Python"
+          - "RNN/GRU"
+          - "Time Series"
+          - "VAE"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/your-username/weather-forecast-gru-vae # edit this
+      
+      - title: ProblemHub — Full-Stack Competitive Programming Hub
+        content: Centralised repository for competitive programming problems in problem-tools format; full-stack app with Next.js + Tailwind (frontend) and Django + SQLite (backend), containerised with Docker for dev/prod.
+        image: /images/projects/problemhub.png # edit this
+        featured:
+          name: GitHub Repo
+          link: https://github.com/N0nameleft/Problem-Hub
+        badges:
+          - "Next.js"
+          - "React"
+          - "TailwindCSS"
+          - "Django"
+          - "SQLite"
+          - "Docker"
+          - "REST API"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/N0nameleft/Problem-Hub
+
+  # Contact            
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content: "My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!"
+    #btnName: Mail me
+    #btnLink: mailto:gurusabarisha@gmail.com
+
+    # Remove or ignore btnName/btnLink when using Formspree
+    formspree:
+      enable: true
+      formId: xrblrejj  # e.g., xyzabcd
+      emailCaption: "Enter your email address"
+      messageCaption: "Enter your message here"
+      messageRows: 6
+
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: false
+      disableFeaturedImage: false
+
+    socialNetworks:
+      github: "https://github.com/stefanniouwa"
+      linkedin: "https://linkedin.com/in/stefan-nio"
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: true
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>
