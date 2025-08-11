@@ -6,7 +6,7 @@ theme: hugo-profile
 params:
   title: "Stef's Portfolio"
   description: "Aspiring AI Engineer passionate about solving real-world problems with technology."
-  favicon: "/images/logo.png"
+  favicon: "/images/nio.png"
   animate: true
   theme:
     defaultTheme: "auto"
@@ -46,7 +46,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "/files/StefanNio_AI_EngineerResume.pdf"
       download: true
       newPage: false
     socialLinks:
@@ -64,7 +64,7 @@ params:
     content: |-
       Stefan is an aspiring software engineer with a passion for AI and Machine Learning. Stefan graduated with a Bachelor's in Advanced Computer Science, with strong foundational understanding of low-level computer science concepts. 
       
-      During his Honours year, Stefan gained experience in academic research and developed a multi-class classification model that classifies seizure types with Tensorflow and Keras to tackle problems related to Healthcare. 
+      During his Honours year, Stefan gained experience in academic research and developed a multi-class classification model that classifies seizure types with TensorFlow and Keras to tackle problems related to Healthcare. 
       
       He is currently working as an AI Engineer Intern at [CognixAI](https://cognix.au/) in Sydney, NSW, where he builds AI-powered automation tools, integrates third-party models, and optimizes end-to-end Python workflows.
 
@@ -77,12 +77,12 @@ params:
       items:
         - "Python"
         - "Java and C"
-        - "Tensorflow, Keras, and Scikit-learn"
+        - "TensorFlow, Keras, and Scikit-learn"
         - "NextJS, ReactJS, HTML, CSS, and JS"
         - "LaTeX and Markdown"
         - "SQL, Jupyter Notebook, and Git command line tools"
         - "Pandas, Matplotlib, and Seaborn"
-        - "Docker and RestAPI"
+        - "Docker and REST API"
   
   # Experience Section
   experience:
@@ -180,11 +180,11 @@ params:
     enable: true
     items:
       - title: Honours Research Thesis — Seizure Classification (EEG)
-        content: Built a WaveNet–BiLSTM pipeline in TensorFlow/Keras to classify seizure types from raw EEG; explored channel-wise attention and rigorous patient-independent evaluation.
-        image: /images/projects/project1.png # edit this
+        content: Built a WaveNet–BiLSTM pipeline in TensorFlow/Keras to classify between seven seizure types from raw EEG; explored channel-wise attention and rigorous patient-independent evaluation.
+        image: /images/project1.png 
         featured:
           name: Read Dissertation (PDF)
-          link: /files/thesis-dissertation.pdf # edit this
+          link: /files/Nio_Honours_Dissertation__Seizure_Classification.pdf # edit this
         badges:
           - "TensorFlow"
           - "Keras"
@@ -193,16 +193,16 @@ params:
           - "Deep Learning"
         links:
           - icon: fab fa-github
-            url: https://github.com/your-username/honours-seizure-classification # edit this
+            url: https://github.com/stefanniouwa/SeizureNet
           - icon: fas fa-file-pdf
-            url: /files/thesis-dissertation.pdf # edit this
+            url: /files/Nio_Honours_Dissertation__Seizure_Classification.pdf
 
       - title: Decision Trees & Random Forest — Hyperparameter Tuning
-        content: Implemented classification with GridSearchCV and cross-validation to tune Decision Trees and Random Forests; improved accuracy and reliability with robust evaluation.
-        image: /images/projects/project2.png # edit this
+        content: Implemented classification on the Breast Cancer Wisconsin dataset to distinguish between benign and malignant tumors, using GridSearchCV and cross-validation to tune Decision Trees and Random Forests; improved accuracy and reliability with robust evaluation.
+        image: /images/project2.png
         featured:
           name: GitHub Repo
-          link: https://github.com/your-username/cits5508-assignment2 # edit this
+          link: https://github.com/stefanniouwa/breastCancerDecisionTree
         badges:
           - "Python"
           - "scikit-learn"
@@ -210,14 +210,14 @@ params:
           - "Cross-Validation"
         links:
           - icon: fab fa-github
-            url: https://github.com/your-username/cits5508-assignment2 # edit this
+            url: https://github.com/stefanniouwa/breastCancerDecisionTree
 
       - title: WeatherForecast — GRU Models & VAE for WA Temps
         content: Built GRU-based models (direct, sequential, encoder–decoder) to forecast min/max temperatures; added a VAE to synthesize realistic temperature sequences.
-        image: /images/projects/project3.png # edit this
+        image: /images/project3.png
         featured:
           name: GitHub Repo
-          link: https://github.com/your-username/weather-forecast-gru-vae # edit this
+          link: https://github.com/stefanniouwa/WeatherForecast/ 
         badges:
           - "Python"
           - "RNN/GRU"
@@ -225,11 +225,11 @@ params:
           - "VAE"
         links:
           - icon: fab fa-github
-            url: https://github.com/your-username/weather-forecast-gru-vae # edit this
+            url: https://github.com/stefanniouwa/WeatherForecast/
       
       - title: ProblemHub — Full-Stack Competitive Programming Hub
         content: Centralised repository for competitive programming problems in problem-tools format; full-stack app with Next.js + Tailwind (frontend) and Django + SQLite (backend), containerised with Docker for dev/prod.
-        image: /images/projects/problemhub.png # edit this
+        image: /images/architecture.png
         featured:
           name: GitHub Repo
           link: https://github.com/N0nameleft/Problem-Hub
@@ -249,7 +249,7 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: "My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!"
+    content: "My inbox is always open. Whether you’re tackling a tricky project, planning your next move, or just curious about my work, I’d be happy to connect."
     #btnName: Mail me
     #btnLink: mailto:gurusabarisha@gmail.com
 
