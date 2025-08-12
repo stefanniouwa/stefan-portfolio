@@ -2,11 +2,12 @@ baseURL: "https://stefannio.netlify.app/"
 languageCode: "en-us"
 title: "Stefan Nio Portfolio"
 theme: hugo-profile
+enableRobotsTXT: true
 
 params:
   title: "Stef's Portfolio"
   description: "Aspiring AI Engineer passionate about solving real-world problems with technology."
-  favicon: "/images/nio.png"
+  favicon: "/images/nio.jpeg"
   animate: true
   theme:
     defaultTheme: "auto"
@@ -40,7 +41,7 @@ params:
     title: "Stefan."
     subtitle: "AI Engineer"
     content: "Delivering AI-Driven Solutions to Real-World Problems."
-    image: /images/portrait.png
+    image: /images/portrait.jpeg
     bottomImage:
       enable: true
     button:
@@ -60,7 +61,7 @@ params:
   about: 
     enable: true
     title: "About Me"
-    image: "/images/about.png"
+    image: "/images/about.jpeg"
     content: |-
       Stefan is an aspiring software engineer with a passion for AI and Machine Learning. Stefan graduated with a Bachelor's in Advanced Computer Science, with strong foundational understanding of low-level computer science concepts. 
       
@@ -174,7 +175,7 @@ params:
         image: /images/honors.png
       - title: "INDOSS Professional Networking Event"
         content: Organised and hosted INDOSS’s first-ever professional networking event, connecting Indonesian students with industry professionals.
-        image: /images/achievement.jpg
+        image: /images/achievement.jpeg
 
   projects:
     enable: true
