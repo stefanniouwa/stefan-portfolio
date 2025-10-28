@@ -6,7 +6,7 @@ enableRobotsTXT: true
 
 params:
   title: "Stef's Portfolio"
-  description: "Aspiring AI Engineer passionate about solving real-world problems with technology."
+  description: "AI Engineer passionate about solving real-world problems with technology."
   favicon: "/images/nio.jpeg"
   animate: true
   theme:
@@ -40,7 +40,7 @@ params:
     intro: "Hey, my name is"
     title: "Stefan."
     subtitle: "AI Engineer"
-    content: "Delivering AI-Driven Solutions to Real-World Problems."
+    content: "Chief AI Officer @ Interlinked Global | Delivering AI-Driven Solutions to Real-World Problems."
     image: /images/portrait.jpeg
     bottomImage:
       enable: true
@@ -63,25 +63,31 @@ params:
     title: "About Me"
     image: "/images/about.jpeg"
     content: |-
-      Stefan is an aspiring software engineer with a passion for AI and Machine Learning. Stefan graduated with a Bachelor's in Advanced Computer Science, with strong foundational understanding of low-level computer science concepts. 
-      
-      During his Honours year, Stefan gained experience in academic research and developed a multi-class classification model that classifies seizure types with TensorFlow and Keras to tackle problems related to Healthcare. 
-      
-      He is currently working as an AI Engineer Intern at [CognixAI](https://cognix.au/) in Sydney, NSW, where he builds AI-powered automation tools, integrates third-party models, and optimizes end-to-end Python workflows.
+      Stefan is Chief AI Officer and Founding Member at Interlinked Global, where he leads R&D and product development to help ASEAN businesses adopt AI with clarity and confidence—building systems that augment human capability rather than replace it.
 
-      Beyond his technical skills, Stefan serves as the Treasurer and Executive Committee member of his university’s Indonesian student society, leading a 40-member team, growing membership, and managing event budgets with care. 
-      
-      Stefan also works as a barista at a local café—crafting lattes with the same precision he applies to machine learning models.
+      With a foundation in Bachelor's of Advanced Computer Science specializing in AI, Stefan's journey continued with an Honours year of academic research at The University of Western Australia, developing multi-class seizure classification models using TensorFlow and Keras. What started as fascination with machine learning algorithms evolved into a deeper question: How do we build AI that serves people, not just processes?
+
+      That question became [Interlinked Global](https://www.interlinkedglobal.io/).
+
+      As CAIO, Stefan architects flagship products including ARRA (AI Readiness & Risk Assessment) and the company's organisational imaging platform—leading a technical team that translates complex AI challenges into practical, human-centered solutions. From Python-based ML systems to regional-scale AI infrastructure, his work bridges technical depth with strategic vision.
+
+      Previously an AI Engineer Intern at [CognixAI](https://cognix.au) in Sydney, building automation tools and optimizing end-to-end Python workflows, Stefan learned that the hardest problems in AI aren't technical—they're human. This insight shaped Interlinked's DNA: helping organisations see themselves clearly and transform in ways that strengthen their people and processes.
+
+      As a founding member, Stefan has shaped both Interlinked's technology stack and its philosophy: first principles thinking, ASEAN-focused innovation, and the conviction that clarity beats complexity every time.
+
+      Beyond code and strategy, Stefan served as Treasurer and Executive Committee member of his university's Indonesian student society, leading a 40-member team and managing event budgets. He also worked as a barista at a local café—crafting lattes with the same precision he applies to machine learning models.
     skills:
       enable: true
-      title: "Technologies I've been working with recently:"
+      title: "Technologies Stefan has been working with recently:"
       items:
-        - "Python"
-        - "Java and C"
+        - "Building Agents with AWS Bedrock AgentCore, Strands SDK, LangChain, and LangGraph"
+        - "Knowledge Graphs with Neo4J"
         - "TensorFlow, Keras, and Scikit-learn"
         - "NextJS, ReactJS, HTML, CSS, and JS"
+        - "SQL, Jupyter Notebook, and Git CLI"
+        - "Python"
+        - "Java and C"
         - "LaTeX and Markdown"
-        - "SQL, Jupyter Notebook, and Git command line tools"
         - "Pandas, Matplotlib, and Seaborn"
         - "Docker and REST API"
   
@@ -89,6 +95,16 @@ params:
   experience:
     enable: true
     items:
+      - job: "Chief AI Officer & Founding Member"
+        company: "Interlinked Global"
+        companyUrl: "https://www.interlinked.global/"
+        date: "Aug 2025 - Present"
+        featuredLink:
+          enable: true
+          name: "View the Website"
+          url: "https://www.interlinked.global/"
+        content: "As Chief AI Officer and Founding Member at Interlinked Global, Stefan leads R&D and product development, architecting AI solutions that help ASEAN businesses transform with confidence. He oversees the technical strategy and engineering team behind flagship products including ARRA (AI Readiness & Risk Assessment) and the company's organisational imaging platform—systems that translate complex AI challenges into practical, human-centered solutions. Stefan has shaped both the technology stack and company philosophy from the ground up, establishing first principles engineering practices and building scalable AI infrastructure tailored to Southeast Asia's unique business landscape. His leadership bridges strategic vision with technical execution, ensuring every product reflects Interlinked's core belief: AI should augment human capability, not replace it. Under his technical direction, Interlinked Global was selected as one of 150 companies worldwide to pitch at Startup Grind's annual conference in Silicon Valley."
+      
       - job: "Artificial Intelligence Engineer Intern"
         company: "CognixAI"
         companyUrl: "https://cognix.au/"
@@ -98,6 +114,15 @@ params:
           name: "View the Website"
           url: "https://cognix.au/"
         content: "At CognixAI, Stefan works as an Artificial Intelligence Engineer Intern in Sydney, NSW, where he builds AI-powered content creation tools that streamline the process of generating and posting personalized content across multiple social media platforms. Leveraging Hugging Face models, third-party AI APIs for text, video, and audio generation, and real-time data from sources like LinkedIn, X, and Bing News, he enhances user engagement and efficiency. He has researched and prototyped adaptive AI models capable of learning client-specific writing styles, enabling fine-tuned, highly personalized content generation. Through Python workflow optimization and API integrations, Stefan has reduced processing times by 25% and improved user efficiency by 40%."
+      - job: "Treasurer (Executive Team)"
+        company: "INDOSS at UWA"
+        companyUrl: "https://www.instagram.com/indossppiauwa/?hl=en"
+        date: "Feb 2024 - Dec 2024"
+        featuredLink:
+          enable: true
+          name: "View the Instagram"
+          url: "https://www.instagram.com/indossppiauwa/?hl=en"
+        content: "As Treasurer and Executive Committee member of the Indonesian Students Society (INDOSS) at UWA, Stefan led a 40-member team, managed event budgets, and oversaw transparent financial operations for a 350+ member organization. He secured over $4,000 in sponsorships, tripled cash reserves, and orchestrated large-scale events with 450+ attendees, generating record revenue. This role strengthened his leadership, financial management, and collaborative decision-making skills in a fast-paced, community-driven environment."
       - job: "Software Accounting Intern"
         company: "Bayswater Mazda"
         companyUrl: "https://www.bayswatermazda.com.au/"
@@ -107,15 +132,6 @@ params:
           name: "View the Website"
           url: "https://www.bayswatermazda.com.au/"
         content: "At Bayswater Mazda, Stefan worked as a Software Accounting Intern, digitizing over 15,000 tax invoices and developing a custom software solution that streamlined the transfer of 5,000+ documents, cutting processing time by 60% and saving 10 workdays each month. He built automated Excel models with PivotTables, VLOOKUP, and VBA to improve data accuracy by 25%, while collaborating with a cross-functional team to deliver a cost-efficient document management system that reduced processing times by 40%."
-      - job: "Treasurer (Executive Team)"
-        company: "INDOSS at The University of Western Australia"
-        companyUrl: "https://www.instagram.com/indossppiauwa/?hl=en"
-        date: "Feb 2024 - Dec 2024"
-        featuredLink:
-          enable: true
-          name: "View the Instagram"
-          url: "https://www.instagram.com/indossppiauwa/?hl=en"
-        content: "As Treasurer and Executive Committee member of the Indonesian Students Society (INDOSS) at UWA, Stefan led a 40-member team, managed event budgets, and oversaw transparent financial operations for a 350+ member organization. He secured over $4,000 in sponsorships, tripled cash reserves, and orchestrated large-scale events with 450+ attendees, generating record revenue. This role strengthened his leadership, financial management, and collaborative decision-making skills in a fast-paced, community-driven environment."
       - job: "Youth Leader"
         company: "WPC FAITH"
         companyUrl: "https://wpcbc.net/"
