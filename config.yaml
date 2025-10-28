@@ -25,6 +25,7 @@ params:
       enable : true
       showOnScrollUp : true
     enableSeparator: false
+    disableSearch: true
     menus:
       disableAbout: false
       disableExperience: false
